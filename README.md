@@ -1,2 +1,0 @@
-# trabajo-locochon
-trabajo locochon
