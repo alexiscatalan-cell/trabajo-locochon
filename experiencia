@@ -1,0 +1,37 @@
+#include <iostream>
+using namespace std;
+
+string mision (bool MisionCompletada){
+    
+    string respuesta = "";
+    if (MisionCompletada == true){
+        respuesta = "mision completada";
+    }else{
+        respuesta ="mision fallida";
+    }
+    return respuesta;
+}
+
+int experienciaActual = 50;
+bool MisionCompletada = true;
+
+int main() {
+
+    cout << "experiencia actual:" << endl;
+    cout << "" << endl;
+    cout << "experiencia: " << experienciaActual << endl;
+    cout << "" << endl;
+
+    int experienciaValor = 25;
+    int experienciaGanada = 0;
+
+    experienciaGanada = experienciaActual + experienciaValor;
+    experienciaActual = experienciaGanada;
+
+    cout << "experiencia final:" << endl;
+    cout << "" << endl;
+    cout << "mision completada: " << mision (MisionCompletada) << endl;
+    cout << "experiencia: " << experienciaActual << endl;
+    
+    return 0;
+}
