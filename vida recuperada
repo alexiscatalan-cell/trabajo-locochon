@@ -1,0 +1,24 @@
+// Crea una función curar() que reciba la vida actual y la curación aplicada. Utiliza parámetros y retorno.
+#include <iostream>
+using namespace std;
+
+string jose;
+int vidaActual = 100;
+int curacion = 25;
+
+int main() {
+
+    cout << "vida jose actual:" << endl;
+    cout << "vida jose: " << vidaActual << endl;
+    cout << "" << endl;
+
+    int vidaCurada = 0;
+    vidaCurada = vidaActual + curacion;
+    vidaActual = vidaCurada;
+
+    cout << "" << endl;
+    cout << "vida jose curada:" << endl;
+    cout << "vida jose: " << vidaActual << endl;
+    
+    return 0;
+}
