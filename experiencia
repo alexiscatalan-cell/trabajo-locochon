@@ -1,3 +1,6 @@
+//Un jugador comienza con 50 puntos de experiencia y gana 25 al completar una misión. Actualiza y muestra el resultado.
+Utiliza una suma para modificar el valor de la variable.
+
 #include <iostream>
 using namespace std;
 
